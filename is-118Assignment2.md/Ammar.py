@@ -25,3 +25,11 @@ if valg3 == "A":
     print("Teamet klarer å levere en fungerende prototype med de viktigste funksjonene innen fristen.")
 elif valg3 == "B":
     print("Teamet får med flere funksjoner, men rekker ikke å teste dem godt nok før fristen.")
+print("Sluttutfall:")
+
+if valg1 == "A" and valg2 == "A" and valg3 == "A":
+    print("Teamet leverer en enkel prototype i tide. Brukernes tilbakemeldinger har forbedret løsningen, og teamet har et bedre grunnlag for å samarbeide videre.")
+elif valg1 == "B" and valg2 == "B" and valg3 == "B":
+    print("Teamet får med mange funksjoner, men sikkerhetsproblemer, forsinkelser og lite testing gjør prototypen utrygg. Motivasjonen i teamet faller.")
+else:
+    print("Teamet løser noen problemer, men ikke alle. De leverer en begrenset prototype og må fortsette å jobbe med sikkerhet, testing og samarbeid.")
